@@ -1,7 +1,7 @@
 package com.company.springBootPractice.withAnnotation;
 
+import com.company.springBootPractice.withAnnotation.entity.Human;
 import com.company.springBootPractice.withAnnotation.utils.ContextUtils;
-import com.company.springBootPractice.withAnnotation.utils.HashMapExample;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -16,7 +16,11 @@ public class Application {
             System.out.println("null");
             return;
         }
-        Map<Integer, Integer> mp = (Map) ContextUtils.applicationContext.getBean(HashMap.class);
-        System.out.println(mp.get(1));
+//        Map<Integer, Integer> mp = (Map) ContextUtils.applicationContext.getBean(HashMap.class);
+//        System.out.println(mp.get(1));
+//        Human human = ContextUtils.applicationContext.getBean(Human.class);
+        Human human = (Human) ContextUtils.applicationContext.getBean("HumanFactory");
+        if(human == null) System.out.println("null");
+        else System.out.println(human.getName());
     }
 }

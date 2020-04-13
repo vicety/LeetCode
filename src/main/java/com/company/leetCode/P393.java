@@ -5,18 +5,23 @@ public class P393 {
         int cnt = 0;
         for (int byt : data) {
             String str = getBitSeq(byt);
-            if (str.startsWith("110")) cnt = 1;
-            else if (str.startsWith("1110")) cnt = 2;
-            else if (str.startsWith("11110")) cnt = 3;
-            else {
-                if(cnt == 0 && !str.startsWith("0")) return false;
-                else {
-                    if(!str.startsWith("10")) return false;
-                    cnt--;
-                }
-            }
+            if (str.startsWith("0")) {
+                if (cnt != 0) return false;
+            } else if (str.startsWith("10")) {
+                if (cnt == 0) return false;
+                cnt--;
+            } else if (str.startsWith("110")) {
+                if (cnt != 0) return false;
+                cnt = 1;
+            } else if (str.startsWith("1110")) {
+                if (cnt != 0) return false;
+                cnt = 2;
+            } else if (str.startsWith("11110")) {
+                if (cnt != 0) return false;
+                cnt = 3;
+            } else return false;
         }
-        return true;
+        return cnt == 0;
     }
 
     private String getBitSeq(int byt) {
