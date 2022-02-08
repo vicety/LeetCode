@@ -1,6 +1,19 @@
 package com.company;
 
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+import java.util.concurrent.CompletableFuture;
+
 public class Main {
 
     private void ff() throws RuntimeException {
@@ -16,29 +29,21 @@ public class Main {
 
 // Java program to demonstrate the usage of
 // setDaemon() and isDaemon() method.
-class DaemonThread extends Thread
-{
-    public DaemonThread(String name){
+class DaemonThread extends Thread {
+    public DaemonThread(String name) {
         super(name);
     }
 
-    public void run()
-    {
+    public void run() {
         // Checking whether the thread is Daemon or not
-        if(Thread.currentThread().isDaemon())
-        {
+        if (Thread.currentThread().isDaemon()) {
             System.out.println(getName() + " is Daemon thread");
-        }
-
-        else
-        {
+        } else {
             System.out.println(getName() + " is User thread");
         }
     }
 
-    public static void main(String[] args)
-    {
-
+    public void test() {
         DaemonThread t1 = new DaemonThread("t1");
         DaemonThread t2 = new DaemonThread("t2");
         DaemonThread t3 = new DaemonThread("t3");
@@ -53,5 +58,92 @@ class DaemonThread extends Thread
         // Setting user thread t3 to Daemon
         t3.setDaemon(true);
         t3.start();
+    }
+
+
+    public static void main(String[] args) throws InterruptedException, IOException {
+//        A a = new A();
+//        a.run();
+//        RandomAccessFile randomAccessFile = new RandomAccessFile("./ttt", "rw");
+//        randomAccessFile.setLength(0);
+//        randomAccessFile.seek(20);
+//        randomAccessFile.write('c');
+//        System.out.println(randomAccessFile.length());
+//        byte[] data = new byte[30];
+////        randomAccessFile.readFully(data);
+//        randomAccessFile.seek(0);
+//        randomAccessFile.read(data, 0, (int) randomAccessFile.length());
+//        System.out.println(Arrays.toString(data));
+
+        Thread.sleep(10000000);
+    }
+}
+
+class A {
+    private int a = 0;
+
+    public void run() throws InterruptedException, IOException {
+//        CompletableFuture.supplyAsync()/
+//        CompletableFuture<Void> completableFuture = new CompletableFuture<>();
+//        CompletableFuture.runAsync().thenRun()
+//        completableFuture.thenRunAsync()
+//        completableFuture.thenRun(() -> {
+//            while (a < 4) {
+//                System.out.println("x");
+//                try {
+//                    Thread.sleep(10);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
+//        for (int i = 0; i < 100; i++) {
+//            a++;
+//            Thread.sleep(10);
+//        }
+//        Thread.sleep(1000);
+//        completableFuture.thenRun(() -> {
+//            System.out.println("2");
+//        });
+//        Thread.sleep(2000);
+
+        RandomAccessFile randomAccessFile = null;
+        File file = null;
+        try {
+            file = new File("./tmp-cy");
+            System.out.println(file.getAbsolutePath());
+            randomAccessFile = new RandomAccessFile(file, "rw");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (randomAccessFile == null) {
+            return;
+        }
+
+        Scanner in = new Scanner(System.in);
+        String s = in.next();
+        System.out.println(randomAccessFile.length());
+
+//        CompletableFuture.runAsync(() -> {
+        randomAccessFile.close();
+        try {
+            Files.move(Paths.get("./tmp-cy"), Paths.get("./tmp-cy-1"), StandardCopyOption.ATOMIC_MOVE);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return;
+        }
+//        System.out.println(file.delete());
+        try {
+            RandomAccessFile raf = new RandomAccessFile("./tmp-cy-2", "rw");
+            Files.move(Paths.get("./tmp-cy-2"), Paths.get("./tmp-cy"), StandardCopyOption.ATOMIC_MOVE);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+//        });
+
+        s = in.next();
+        randomAccessFile = new RandomAccessFile(file, "rw");
+        System.out.println(randomAccessFile.length());
+
     }
 }
