@@ -8,11 +8,8 @@ import java.io.RandomAccessFile;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.concurrent.CompletableFuture;
+import java.util.*;
+import java.util.concurrent.*;
 
 public class Main {
 
@@ -75,7 +72,37 @@ class DaemonThread extends Thread {
 //        randomAccessFile.read(data, 0, (int) randomAccessFile.length());
 //        System.out.println(Arrays.toString(data));
 
-        Thread.sleep(10000000);
+//        Thread.sleep(10000000);
+
+//        CyclicBarrier cyclicBarrier = new CyclicBarrier(8);
+//        ExecutorService executorService = Executors.newFixedThreadPool(8);
+//        for (int i = 0; i < 8; i++) {
+//            int finalI = i;
+//            executorService.submit(() -> {
+//                while (true) {
+//                    System.out.printf("%d %d start\n", System.currentTimeMillis(), finalI);
+//                    Thread.sleep((new Random()).nextInt(2000));
+//                    try {
+//                        cyclicBarrier.await();
+//                    } catch (InterruptedException | BrokenBarrierException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//
+//            });
+//        }
+
+        long st = System.currentTimeMillis();
+        double a = 1.1;
+        for (int i = 0; i < 40; i++) {
+            System.out.println(i);
+            for (int j = 0; j < 20000; j++) {
+                for (int k = 0; k < 20000; k++) {
+                    a *= a;
+                }
+            }
+        }
+        System.out.printf("%d\n", System.currentTimeMillis() - st);
     }
 }
 
