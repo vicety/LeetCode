@@ -56,7 +56,7 @@ public class RWLock {
         while (true) {
             int[] tsHolder = new int[1];
             State state = stateRef.get(tsHolder);
-            if (state.readCnt == 0) {
+            if (state.readCnt == 0 && state.writeCnt == 0) {
                 State newState = new State(state.readCnt, state.writeCnt + 1);
                 if (stateRef.compareAndSet(state, newState, tsHolder[0], tsHolder[0] + 1)) {
                     break;
@@ -65,7 +65,8 @@ public class RWLock {
 
             synchronized (this) {
                 wait();
-                if (stateRef.getReference().readCnt == 0) {
+                // 持有锁，无并发修改
+                if (stateRef.getReference().readCnt == 0 && stateRef.getReference().writeCnt == 0) {
                     State newState = new State(stateRef.getReference().readCnt, stateRef.getReference().writeCnt + 1);
                     stateRef.set(newState, stateRef.getStamp() + 1);
                     break;
