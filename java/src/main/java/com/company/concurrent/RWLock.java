@@ -49,7 +49,10 @@ public class RWLock {
                 break;
             }
         }
-        notifyAll();
+
+        synchronized (this) {
+            notifyAll();
+        }
     }
 
     public void writeLock() throws InterruptedException {
@@ -80,7 +83,10 @@ public class RWLock {
         State state = stateRef.get(tsHolder);
         State newState = new State(state.readCnt, state.writeCnt - 1);
         stateRef.set(newState, tsHolder[0] + 1);
-        notifyAll();
+
+        synchronized (this) {
+            notifyAll();
+        }
     }
 
     public static void main(String[] args) {
