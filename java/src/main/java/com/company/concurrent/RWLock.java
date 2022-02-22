@@ -1,5 +1,6 @@
 package com.company.concurrent;
 
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 public class RWLock {
@@ -13,17 +14,17 @@ public class RWLock {
         }
     }
 
-    private volatile State state = new State(0, 0);
+    private State state = new State(0, 0); // 不应当直接访问它，不是volatile的
 
-    private AtomicStampedReference<State> stateRef = new AtomicStampedReference<>(state, 0);
+    //    private AtomicStampedReference<State> stateRef = new AtomicStampedReference<>(state, 0);
+    private AtomicReference<State> stateRef = new AtomicReference<>(state);
 
     public void acquireReadLock() throws InterruptedException {
         while (true) {
-            int[] tsHolder = new int[1];
-            State state = stateRef.get(tsHolder);
+            State state = stateRef.get();
             if (state.writeCnt == 0) {
                 State newState = new State(state.readCnt + 1, state.writeCnt);
-                if (stateRef.compareAndSet(state, newState, tsHolder[0], tsHolder[0] + 1)) {
+                if (stateRef.compareAndSet(state, newState)) {
                     break;
                 }
             }
@@ -31,9 +32,9 @@ public class RWLock {
             synchronized (this) {
                 wait();
                 // 锁内，不会并发修改
-                if (stateRef.getReference().writeCnt == 0) {
-                    State newState = new State(stateRef.getReference().readCnt + 1, stateRef.getReference().writeCnt);
-                    stateRef.set(newState, stateRef.getStamp() + 1);
+                if (stateRef.get().writeCnt == 0) {
+                    State newState = new State(stateRef.get().readCnt + 1, stateRef.get().writeCnt);
+                    stateRef.set(newState);
                     break;
                 }
             }
@@ -42,10 +43,9 @@ public class RWLock {
 
     public void releaseReadLock() {
         while (true) {
-            int[] tsHolder = new int[1];
-            State state = stateRef.get(tsHolder);
+            State state = stateRef.get();
             State newState = new State(state.readCnt - 1, state.writeCnt);
-            if (stateRef.compareAndSet(state, newState, tsHolder[0], tsHolder[0] + 1)) {
+            if (stateRef.compareAndSet(state, newState)) {
                 break;
             }
         }
@@ -57,11 +57,10 @@ public class RWLock {
 
     public void writeLock() throws InterruptedException {
         while (true) {
-            int[] tsHolder = new int[1];
-            State state = stateRef.get(tsHolder);
+            State state = stateRef.get();
             if (state.readCnt == 0 && state.writeCnt == 0) {
                 State newState = new State(state.readCnt, state.writeCnt + 1);
-                if (stateRef.compareAndSet(state, newState, tsHolder[0], tsHolder[0] + 1)) {
+                if (stateRef.compareAndSet(state, newState)) {
                     break;
                 }
             }
@@ -69,9 +68,9 @@ public class RWLock {
             synchronized (this) {
                 wait();
                 // 持有锁，无并发修改
-                if (stateRef.getReference().readCnt == 0 && stateRef.getReference().writeCnt == 0) {
-                    State newState = new State(stateRef.getReference().readCnt, stateRef.getReference().writeCnt + 1);
-                    stateRef.set(newState, stateRef.getStamp() + 1);
+                if (stateRef.get().readCnt == 0 && stateRef.get().writeCnt == 0) {
+                    State newState = new State(stateRef.get().readCnt, stateRef.get().writeCnt + 1);
+                    stateRef.set(newState);
                     break;
                 }
             }

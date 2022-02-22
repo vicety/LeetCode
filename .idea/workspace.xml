@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350929a9-584e-48d3-940b-8afb9cedbae4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/RWLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/168.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/171.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/331.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/450.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/772_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/RWLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/RWLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +193,7 @@
       <workItem from="1645078177093" duration="30435000" />
       <workItem from="1645326895345" duration="5734000" />
       <workItem from="1645510491027" duration="12850000" />
-      <workItem from="1645554781292" duration="3880000" />
+      <workItem from="1645554781292" duration="5328000" />
     </task>
     <servers />
   </component>
