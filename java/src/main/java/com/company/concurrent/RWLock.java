@@ -31,12 +31,6 @@ public class RWLock {
 
             synchronized (this) {
                 wait();
-                // 锁内，不会并发修改
-                if (stateRef.get().writeCnt == 0) {
-                    State newState = new State(stateRef.get().readCnt + 1, stateRef.get().writeCnt);
-                    stateRef.set(newState);
-                    break;
-                }
             }
         }
     }
@@ -67,21 +61,14 @@ public class RWLock {
 
             synchronized (this) {
                 wait();
-                // 持有锁，无并发修改
-                if (stateRef.get().readCnt == 0 && stateRef.get().writeCnt == 0) {
-                    State newState = new State(stateRef.get().readCnt, stateRef.get().writeCnt + 1);
-                    stateRef.set(newState);
-                    break;
-                }
             }
         }
     }
 
     public void releaseWriteLock() {
-        int[] tsHolder = new int[1];
-        State state = stateRef.get(tsHolder);
+        State state = stateRef.get();
         State newState = new State(state.readCnt, state.writeCnt - 1);
-        stateRef.set(newState, tsHolder[0] + 1);
+        stateRef.set(newState);
 
         synchronized (this) {
             notifyAll();

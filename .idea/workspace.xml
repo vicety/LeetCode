@@ -5,8 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350929a9-584e-48d3-940b-8afb9cedbae4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra/niuke/58.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra/niuke/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/168_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/200.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/523.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/542.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/713.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/863.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/974.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/ali-2022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/54.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/59.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/3_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/RWLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/RWLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/tmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/com/company/another/JavaVMStackSOF.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/target/classes/com/company/another/JavaVMStackSOF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/com/company/another/Mutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/target/classes/com/company/another/Mutable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/com/company/concurrent/tmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/com/company/practiceNewFeature/FuturePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/target/classes/com/company/practiceNewFeature/FuturePractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/utils/ModifySuffix.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/target/classes/utils/ModifySuffix.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -57,8 +102,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration name="168" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\ali-2022" />
+      <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\msft-2022" />
+      <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.3 (1)">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/168.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="171" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/171.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="32" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +162,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/32.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="331" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/331.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="772_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/772_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,6 +220,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3 (1)" />
+        <item itemvalue="Python.5" />
+        <item itemvalue="Python.4" />
+        <item itemvalue="Python.2 (1)" />
+        <item itemvalue="Python.1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -193,7 +254,10 @@
       <workItem from="1645078177093" duration="30435000" />
       <workItem from="1645326895345" duration="5734000" />
       <workItem from="1645510491027" duration="12850000" />
-      <workItem from="1645554781292" duration="5328000" />
+      <workItem from="1645554781292" duration="14989000" />
+      <workItem from="1646024913882" duration="1398000" />
+      <workItem from="1646235209412" duration="17643000" />
+      <workItem from="1646393358075" duration="17408000" />
     </task>
     <servers />
   </component>
@@ -211,5 +275,45 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/meituan-2022/2.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/meituan-2022/2.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/meituan-2022/4.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/meituan-2022/5.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/meituan-2022/3.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1646447910680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$3.coverage" NAME="3 Coverage Results" MODIFIED="1646394672775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$3__1_.coverage" NAME="3 (1) Coverage Results" MODIFIED="1646452651855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$2.coverage" NAME="2 Coverage Results" MODIFIED="1646395207725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$4.coverage" NAME="4 Coverage Results" MODIFIED="1646450291232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1646452007974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$1.coverage" NAME="1 Coverage Results" MODIFIED="1646446016504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
   </component>
 </project>
