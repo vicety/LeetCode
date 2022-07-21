@@ -37,9 +37,11 @@ class Solution:
 
     def compute(self, vals, prevOp, now):
         if prevOp == "+":
-            vals.append(now)
+            vals.append(now)  # 注意不能和与前面的值（vals[-1]结合），考虑用例 1+2*2，如果结合会变为 (1+2)*2
+            # vals[-1] += now
         elif prevOp == "-":
             vals.append(-now)
+            # vals[-1] -= now
         elif prevOp == "*":
             vals[-1] *= now
         elif prevOp == "/":
@@ -50,7 +52,7 @@ class Solution:
 
 
 s = Solution()
-print(s.calculate("1+4/2"))
-print(s.calculate("2*(4+2/2)"))
-print(s.calculate("2/(2-1)"))
+print(s.calculate("1+4/2"))  # 3
+print(s.calculate("2*(4+2/2)"))  # 10
+print(s.calculate("2/(2-1)"))  # 2
 s = set()

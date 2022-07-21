@@ -1,6 +1,11 @@
 package com.company.tmp;
 
+import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Objects;
+import java.util.Vector;
+import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class tmp {
 //    public static tmp t1 = new tmp();
@@ -21,6 +26,11 @@ class B extends A {
     void a() {
 //        AbstractQueuedSynchronizer
 //        (new String("xx")).codePointAt()
+//        ConcurrentHashMap;
+//        ReentrantLock e = new ReentrantLock();
+//        e.lock();
+//        Hashtable
+//        ThreadLocal
     }
 
 }
