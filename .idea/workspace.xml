@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350929a9-584e-48d3-940b-8afb9cedbae4" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/python/msft-2022/interview/1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/python/msft-2022/interview/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/python/msft-2022/oa/__init__.py" afterDir="false" />
@@ -14,7 +15,156 @@
       <change beforePath="$PROJECT_DIR$/python/msft-2022/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/msft-2022/oa/3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/msft-2022/3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/msft-2022/oa/3_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/msft-2022/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/msft-2022/interview/4.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/Practice.iml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/interview/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/Ali1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/MethodSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/One234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/ProdConsumeWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/leetCode/P295_TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/leetCode/P480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/114-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1337.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1387.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1387_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1396.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/209-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/215_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/252.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/295.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/346.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/450_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/467.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/468.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/470.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/472.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/474.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/474_space.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/475.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/475_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/476.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/477.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/481.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/482.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/483.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/485.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/486_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/491.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/498.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/525.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/581.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/5_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/703.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/718.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/735.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/76.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/792.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/93.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/1main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data/TreeNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/3-27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lint/918.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/2mian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/3_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/interview1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/niuke/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/niuke/he-bing-jin-bi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/DD2356-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/util/ListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/215.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/215.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/772_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/772_1.py" afterDir="false" />
+>>>>>>> origin/surface-aya
+>>>>>>> aeb7f0a042de9c1c0171b8b25f8afa67bbbf9173
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,12 +227,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bevaka-tandvard" />
+>>>>>>> origin/surface-aya
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+>>>>>>> origin/surface-aya
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -93,8 +251,29 @@
       <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\msft-2022" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.4">
+=======
+<<<<<<< HEAD
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.3 (1)">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.25">
+>>>>>>> aeb7f0a042de9c1c0171b8b25f8afa67bbbf9173
     <configuration name="10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/surface-aya
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,7 +384,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="350929a9-584e-48d3-940b-8afb9cedbae4" name="Changes" comment="" />
@@ -232,6 +414,11 @@
       <workItem from="1645554781292" duration="14989000" />
       <workItem from="1646024913882" duration="1398000" />
       <workItem from="1646235209412" duration="17643000" />
+<<<<<<< HEAD
+      <workItem from="1646393358075" duration="17408000" />
+      <workItem from="1646586071043" duration="639000" />
+      <workItem from="1647508304035" duration="6136000" />
+=======
       <workItem from="1646393358075" duration="18563000" />
       <workItem from="1646873016085" duration="1334000" />
       <workItem from="1647133972821" duration="4914000" />
@@ -256,25 +443,81 @@
       <workItem from="1651625632493" duration="6533000" />
       <workItem from="1651711427666" duration="8423000" />
       <workItem from="1657708075783" duration="3411000" />
+<<<<<<< HEAD
       <workItem from="1658171916683" duration="8654000" />
       <workItem from="1659354088173" duration="10000" />
       <workItem from="1659354109369" duration="817000" />
+=======
+      <workItem from="1658171916683" duration="8003000" />
+>>>>>>> origin/surface-aya
+>>>>>>> aeb7f0a042de9c1c0171b8b25f8afa67bbbf9173
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/482.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/491.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/491.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/10.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/LeetCode$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1646447910680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$3.coverage" NAME="3 Coverage Results" MODIFIED="1646394672775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$2.coverage" NAME="2 Coverage Results" MODIFIED="1646395207725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$4.coverage" NAME="4 Coverage Results" MODIFIED="1646450291232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$1.coverage" NAME="1 Coverage Results" MODIFIED="1646446016504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1646452007974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+    <SUITE FILE_PATH="coverage/LeetCode$3__1_.coverage" NAME="3 (1) Coverage Results" MODIFIED="1646452651855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+=======
+    <SUITE FILE_PATH="coverage/LeetCode$10.coverage" NAME="10 Coverage Results" MODIFIED="1658179453468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$5_1.coverage" NAME="5_1 Coverage Results" MODIFIED="1658177045998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$481.coverage" NAME="481 Coverage Results" MODIFIED="1651713062582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$25.coverage" NAME="25 Coverage Results" MODIFIED="1658385664966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$4.coverage" NAME="4 Coverage Results" MODIFIED="1657710885950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$486_1.coverage" NAME="486_1 Coverage Results" MODIFIED="1652021045548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$491.coverage" NAME="491 Coverage Results" MODIFIED="1652037058172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1658172918545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$482.coverage" NAME="482 Coverage Results" MODIFIED="1651989944150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+>>>>>>> origin/surface-aya
+  </component>
+>>>>>>> aeb7f0a042de9c1c0171b8b25f8afa67bbbf9173
 </project>
