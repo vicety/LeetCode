@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350929a9-584e-48d3-940b-8afb9cedbae4" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
@@ -54,6 +55,102 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/Practice.iml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/interview/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/Ali1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/MethodSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/One234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/ProdConsumeWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/concurrent/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/leetCode/P295_TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/leetCode/P480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/114-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1337.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1387.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1387_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/1396.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/209-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/215_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/252.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/295.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/346.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/450_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/467.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/468.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/470.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/472.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/474.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/474_space.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/475.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/475_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/476.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/477.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/481.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/482.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/483.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/485.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/486_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/491.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/498.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/525.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/581.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/5_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/703.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/718.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/735.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/76.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/792.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/93.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ali-2022/1main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data/TreeNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/3-27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/hulu-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/jianzhi/46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lint/918.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/meituan-2022/2mian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/msft-2022/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/3_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/huyu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/netease-2022/interview1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/niuke/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/niuke/he-bing-jin-bi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/DD2356-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/plot/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/util/ListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp4.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/company/tmp/tmp4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/215.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/215.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/772_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/772_1.py" afterDir="false" />
+>>>>>>> origin/surface-aya
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +161,26 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -82,6 +193,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="c8ub8wl7" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -98,20 +212,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bevaka-tandvard" />
+>>>>>>> origin/surface-aya
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+>>>>>>> origin/surface-aya
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\meituan-2022" />
       <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\ali-2022" />
       <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python\msft-2022" />
       <recent name="C:\Users\Chengyang Huang\Workspace\github\LeetCode\python" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -126,6 +250,10 @@
   </component>
   <component name="RunManager" selected="Python.3 (1)">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.25">
+    <configuration name="10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/surface-aya
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,12 +261,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +275,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="25" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,34 +283,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/25.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,12 +305,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,12 +327,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/meituan-2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/meituan-2022/5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/5_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3 (1)" />
+        <item itemvalue="Python.25" />
+        <item itemvalue="Python.10" />
+        <item itemvalue="Python.5_1" />
         <item itemvalue="Python.5" />
         <item itemvalue="Python.4" />
-        <item itemvalue="Python.2 (1)" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -275,9 +403,37 @@
       <workItem from="1645554781292" duration="14989000" />
       <workItem from="1646024913882" duration="1398000" />
       <workItem from="1646235209412" duration="17643000" />
+<<<<<<< HEAD
       <workItem from="1646393358075" duration="17408000" />
       <workItem from="1646586071043" duration="639000" />
       <workItem from="1647508304035" duration="6136000" />
+=======
+      <workItem from="1646393358075" duration="18563000" />
+      <workItem from="1646873016085" duration="1334000" />
+      <workItem from="1647133972821" duration="4914000" />
+      <workItem from="1647140976142" duration="28526000" />
+      <workItem from="1647576838801" duration="40000" />
+      <workItem from="1647831574486" duration="2140000" />
+      <workItem from="1647861922660" duration="9710000" />
+      <workItem from="1648360731342" duration="15762000" />
+      <workItem from="1648828091319" duration="970000" />
+      <workItem from="1649285700263" duration="2778000" />
+      <workItem from="1649397884052" duration="4610000" />
+      <workItem from="1649573460229" duration="15382000" />
+      <workItem from="1650179170536" duration="9215000" />
+      <workItem from="1650558326622" duration="612000" />
+      <workItem from="1650825537640" duration="681000" />
+      <workItem from="1650918298147" duration="8027000" />
+      <workItem from="1651084090626" duration="731000" />
+      <workItem from="1651084843441" duration="1234000" />
+      <workItem from="1651109932487" duration="26000" />
+      <workItem from="1651169330358" duration="13899000" />
+      <workItem from="1651551547890" duration="11000" />
+      <workItem from="1651625632493" duration="6533000" />
+      <workItem from="1651711427666" duration="8423000" />
+      <workItem from="1657708075783" duration="3411000" />
+      <workItem from="1658171916683" duration="8003000" />
+>>>>>>> origin/surface-aya
     </task>
     <servers />
   </component>
@@ -301,34 +457,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/meituan-2022/2.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/python/482.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/meituan-2022/2.py</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/python/491.py</url>
+          <line>16</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/meituan-2022/4.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/python/491.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/meituan-2022/5.py</url>
+          <url>file://$PROJECT_DIR$/python/10.py</url>
           <line>35</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/meituan-2022/3.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/LeetCode$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1646447910680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
     <SUITE FILE_PATH="coverage/LeetCode$3.coverage" NAME="3 Coverage Results" MODIFIED="1646394672775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
     <SUITE FILE_PATH="coverage/LeetCode$2.coverage" NAME="2 Coverage Results" MODIFIED="1646395207725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ali-2022" />
@@ -336,5 +488,16 @@
     <SUITE FILE_PATH="coverage/LeetCode$1.coverage" NAME="1 Coverage Results" MODIFIED="1646446016504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
     <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1646452007974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
     <SUITE FILE_PATH="coverage/LeetCode$3__1_.coverage" NAME="3 (1) Coverage Results" MODIFIED="1646452651855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/meituan-2022" />
+=======
+    <SUITE FILE_PATH="coverage/LeetCode$10.coverage" NAME="10 Coverage Results" MODIFIED="1658179453468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$5_1.coverage" NAME="5_1 Coverage Results" MODIFIED="1658177045998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$481.coverage" NAME="481 Coverage Results" MODIFIED="1651713062582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$25.coverage" NAME="25 Coverage Results" MODIFIED="1658385664966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$4.coverage" NAME="4 Coverage Results" MODIFIED="1657710885950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$486_1.coverage" NAME="486_1 Coverage Results" MODIFIED="1652021045548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$491.coverage" NAME="491 Coverage Results" MODIFIED="1652037058172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$5.coverage" NAME="5 Coverage Results" MODIFIED="1658172918545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCode$482.coverage" NAME="482 Coverage Results" MODIFIED="1651989944150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+>>>>>>> origin/surface-aya
   </component>
 </project>

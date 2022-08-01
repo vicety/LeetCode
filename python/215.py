@@ -7,10 +7,10 @@ class Solution:
         return self.solve(nums, 0, len(nums) - 1, k - 1)
 
     def solve(self, arr, l, r, k):  # k index from 0
-        if l == r:
-            return arr[l]
-        rnd = random.randint(l, r)
-        arr[l], arr[rnd] = arr[rnd], arr[l]
+        # if l == r:
+        #     return arr[l]
+        # rnd = random.randint(l, r)
+        # arr[l], arr[rnd] = arr[rnd], arr[l]
         pivot = arr[l]
         le, mid, ri = l, l + 1, r
         while mid <= ri:
@@ -35,5 +35,7 @@ class Solution:
 s = Solution()
 
 arr = [3, 2, 1, 5, 6, 4]
-for i in range(len(arr)):
-    print(s.findKthLargest(arr, i + 1))
+for i in range(10):
+    print(s.findKthLargest(arr, 3))
+# for i in range(len(arr)):
+#     print(s.findKthLargest(arr, i + 1))
