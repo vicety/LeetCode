@@ -1,6 +1,6 @@
 from typing import Optional
 
-from python.data.TreeNode import TreeNode
+from python.util.TreeNode import TreeNode
 
 
 class Solution:

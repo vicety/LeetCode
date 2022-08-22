@@ -1,6 +1,5 @@
 package com.company.another;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.lang.instrument.Instrumentation;
 import java.lang.invoke.MethodHandle;
