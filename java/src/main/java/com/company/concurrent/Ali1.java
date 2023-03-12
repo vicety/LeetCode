@@ -7,6 +7,8 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+// NOTE: 另一题考的是 179. Largest Number
+
 public class Ali1 {
     public static void main(String[] args) throws InterruptedException {
         // 只用volatile，不用cas

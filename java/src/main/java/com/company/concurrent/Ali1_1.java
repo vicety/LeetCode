@@ -69,11 +69,7 @@ class ComponentFactory extends Thread {
                 }
             }
 
-            lock.lock();
             componentCnt.set(componentCnt.get() + 1);
-            lock.unlock();
-
-//            componentCnt.getAndIncrement();
             hasNewComponent.signal();
             lock.unlock();
         }
@@ -119,10 +115,8 @@ class Consumer extends Thread {
                 }
             }
 
-            lock.lock();
             wheelCount.set(wheelCount.get() - 2);
             bodyCount.set(bodyCount.get() - 1);
-            lock.unlock();
 
             System.out.println("produced a new bike");
             if (wheelCount.get() < wheelMax / 2) {

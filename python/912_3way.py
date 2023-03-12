@@ -34,3 +34,6 @@ class Solution:
 
 s = Solution()
 print(s.sortArray([1, 5, 8, 2, 7, 2, 2, 7, 2, 9]))
+
+# 虚拟化 自动化测试
+# EDA 比较慢 emulation

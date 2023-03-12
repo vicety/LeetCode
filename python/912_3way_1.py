@@ -1,12 +1,12 @@
 import random
 from typing import List
 
-
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         self.sort(nums, 0, len(nums) - 1)
         return nums
 
+    # 所有的位置 left, mid, right 都是开边界
     def sort(self, arr, l, r):
         if l >= r:
             return

@@ -13,12 +13,7 @@ public class LoopABC {
     Condition a2bCondition = lock.newCondition();
     Condition b2cCondition = lock.newCondition();
     Condition c2aCondition = lock.newCondition();
-    AtomicInteger cnt = new AtomicInteger(); // 没有线程竞争，其实没必要用原子变量
-//    new Thread
-//    Class
-{
-//    Proxy.newProxyInstance()
-}
+    AtomicInteger cnt = new AtomicInteger(); // 没有线程竞争，其实没必要用原子变量，但是我们需要一个容器包装Integer
 
     Thread a, b, c;
 
@@ -38,8 +33,7 @@ public class LoopABC {
                         cnt.getAndIncrement();
                         a2bCondition.signal();
                         break;
-                    }
-                    else {
+                    } else {
                         try {
                             c2aCondition.await();
                         } catch (InterruptedException e) {
@@ -65,8 +59,7 @@ public class LoopABC {
                         cnt.getAndIncrement();
                         b2cCondition.signal();
                         break;
-                    }
-                    else {
+                    } else {
                         try {
                             a2bCondition.await();
                         } catch (InterruptedException e) {
@@ -92,8 +85,7 @@ public class LoopABC {
                         cnt.getAndIncrement();
                         c2aCondition.signal();
                         break;
-                    }
-                    else {
+                    } else {
                         try {
                             b2cCondition.await();
                         } catch (InterruptedException e) {
@@ -105,6 +97,7 @@ public class LoopABC {
         });
     }
 
+    //    NOTE: 有问题，没有正确退出
     public static void main(String[] args) {
         LoopABC loopABC = new LoopABC();
         loopABC.a.start();
