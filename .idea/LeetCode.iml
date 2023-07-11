@@ -7,7 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/java/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/java/src/main/java/com/company/springBootPractice" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="1.8 (2)" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/python/tmp" />
+      </list>
+    </option>
   </component>
 </module>

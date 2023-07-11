@@ -85,3 +85,7 @@ class Solution:
         while hp.len() > 0:
             ans.append(hp.get())
         return sorted(list(map(lambda x: -x, ans)))
+
+# 搜索架构 基础技术 稳定性
+# 偏向业务的基础架构，trace，存储，通用框架，混沌工程
+# 组织变更：存储，新划过来。属于传统软件，云原生微服务做的不好。

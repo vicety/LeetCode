@@ -17,7 +17,7 @@ class Solution_1123 {
         List<TreeNode> bfsNext = new ArrayList<>();
         bfsCurrent.add(root);
 
-        ThreadPoolExecutor
+//        ThreadPoolExecutor
 
         while (true) {
             for (TreeNode node : bfsCurrent) {
